@@ -392,8 +392,9 @@ header .hero-img .hero-text .bi-arrow-down:hover {
 /*
  * Footer
  */
-footer {
-  margin-bottom: 40px;
+.unt :hover{
+  color: #00e9e6;
+  
 }
 
 footer span {
