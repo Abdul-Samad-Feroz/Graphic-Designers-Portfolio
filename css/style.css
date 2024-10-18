@@ -37,7 +37,7 @@ a {
 
 a:focus,
 a:hover {
-  color: #00e9e6 !important;
+  color: #00e9e6;
 }
 
 /*
@@ -393,7 +393,7 @@ header .hero-img .hero-text .bi-arrow-down:hover {
  * Footer
  */
 .uu:hover{
-  color: white !important;
+  color: #00e9e6 !important;
 }
 
 footer span {
