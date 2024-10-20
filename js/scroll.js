@@ -1,24 +1,22 @@
-
 const nav = document.querySelector(".navbar");
 
-document.addEventListener('DOMContentLoaded', function() {
-
-    function addShadow() {
-        console.log('shadow');
-        if (window.scrollY >= 300) {
-            nav.classList.add('shadow-bg');
-        } else {
-            nav.classList.remove('shadow-bg');
-        }
+document.addEventListener("DOMContentLoaded", function () {
+  function addShadow() {
+    console.log("shadow");
+    if (window.scrollY >= 300) {
+      nav.classList.add("shadow-bg");
+    } else {
+      nav.classList.remove("shadow-bg");
     }
-    window.addEventListener('scroll', addShadow);
-})
+  }
+  window.addEventListener("scroll", addShadow);
+});
 
-// $('#expertize-link').click(function(){ 
+// $('#expertize-link').click(function(){
 
 //     console.log('expertize-scroll');
 //     window.location.href="../index.html";
-// window.scrollTo(450, document.body.scrollHeight);    
+// window.scrollTo(450, document.body.scrollHeight);
 // return false;
 
 // });

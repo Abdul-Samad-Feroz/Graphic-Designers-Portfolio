@@ -1,9 +1,9 @@
 function readMore(text) {
-    let dots = document.querySelector(`.item[data-text="${text}"] .dots`);
-    let moreText = document.querySelector(`.item[data-text="${text}"] .more`); 
-    let btnText = document.querySelector(`.item[data-text="${text}"] .plus`);
+  let dots = document.querySelector(`.item[data-text="${text}"] .dots`);
+  let moreText = document.querySelector(`.item[data-text="${text}"] .more`);
+  let btnText = document.querySelector(`.item[data-text="${text}"] .plus`);
 
-    console.log(dots);
+  console.log(dots);
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
@@ -15,4 +15,3 @@ function readMore(text) {
     moreText.style.display = "inline";
   }
 }
-

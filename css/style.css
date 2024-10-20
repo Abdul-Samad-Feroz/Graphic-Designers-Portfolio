@@ -5,7 +5,7 @@
 *::after,
 *::before {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -59,7 +59,9 @@ button {
   border: none;
 }
 
-button:hover, button:focus, button.active {
+button:hover,
+button:focus,
+button.active {
   color: #00e9e6;
 }
 
@@ -106,7 +108,8 @@ nav .nav-item {
   color: white;
 }
 
-nav .nav-item:hover, nav .nav-item:focus {
+nav .nav-item:hover,
+nav .nav-item:focus {
   color: #00e9e6;
 }
 
@@ -155,14 +158,14 @@ header .hero-img .hero-text {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   height: 100%;
   padding: 10px;
   z-index: 2;
@@ -178,7 +181,7 @@ header .hero-img .hero-text .bi-arrow-down {
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   bottom: 150px;
   font-size: 120px;
   color: white;
@@ -230,7 +233,7 @@ header .hero-img .hero-text .bi-arrow-down:hover {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -webkit-transition: -webkit-transform 0.35s;
   transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
@@ -258,7 +261,7 @@ header .hero-img .hero-text .bi-arrow-down:hover {
   bottom: 0px;
   z-index: 2;
   -webkit-transform: translate3d(0, 200%, 0);
-          transform: translate3d(0, 200%, 0);
+  transform: translate3d(0, 200%, 0);
   -webkit-transition: -webkit-transform 0.35s;
   transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
@@ -279,14 +282,14 @@ header .hero-img .hero-text .bi-arrow-down:hover {
 
 .portfolio .gallery .gallery__item:hover .text {
   -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
   -webkit-transition-delay: 0.15s;
-          transition-delay: 0.15s;
+  transition-delay: 0.15s;
 }
 
 .portfolio .gallery .gallery__item:hover .gallery__img {
   -webkit-transform: translate3d(0, -10%, 0);
-          transform: translate3d(0, -10%, 0);
+  transform: translate3d(0, -10%, 0);
 }
 
 #portfolio {
@@ -392,7 +395,7 @@ header .hero-img .hero-text .bi-arrow-down:hover {
 /*
  * Footer
  */
-.uu:hover{
+.uu:hover {
   color: #00e9e6 !important;
 }
 
