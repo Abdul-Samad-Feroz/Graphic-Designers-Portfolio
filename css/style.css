@@ -1,6 +1,9 @@
 /*
  * Globals
  */
+ html {
+  scroll-behavior: smooth;
+ }
 *,
 *::after,
 *::before {
@@ -9,7 +12,6 @@
   margin: 0;
   padding: 0;
 }
-
 h1,
 h2 {
   font-family: "Didot", serif;
@@ -38,6 +40,15 @@ a {
 a:focus,
 a:hover {
   color: #00e9e6;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /*
@@ -172,9 +183,11 @@ header .hero-img .hero-text {
 }
 
 header .hero-img .hero-text h1 {
-  font-size: 10vw;
-  line-height: 8.5vw;
-  text-align: center;
+   font-size: 10vw;
+   line-height: 8.5vw;
+   text-align: center;
+   animation: fadeIn 1.5s ease-in-out;
+   -webkit-animation: fadeIn 1.5s ease-in-out;
 }
 
 header .hero-img .hero-text .bi-arrow-down {
